@@ -1,5 +1,5 @@
 package = "luafilesystem"
-version = "scm-1"
+version = "scm-2"
 source = {
    url = "git+https://github.com/lunarmodules/luafilesystem"
 }
