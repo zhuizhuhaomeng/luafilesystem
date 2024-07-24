@@ -1,7 +1,7 @@
 # Installation directories
 
 # Default installation prefix
-PREFIX=/usr/local
+PREFIX=/usr/local/openresty/luajit
 
 LUA_VERSION = 5.1
 
