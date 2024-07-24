@@ -1160,8 +1160,10 @@ LFS_EXPORT int luaopen_lfs(lua_State * L)
   dir_create_meta(L);
   lock_create_meta(L);
   new_lib(L, fslib);
+#ifdef ENABLE_LFS_GLOBAL
   lua_pushvalue(L, -1);
   lua_setglobal(L, LFS_LIBNAME);
+#endif
   set_info(L);
   return 1;
 }
